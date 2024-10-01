@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario</title>
+        <link rel="stylesheet" href="./style.css">
+        <script src="./formulario.js" defer></script>
+    </head>
+    <body>
+        <div class="main-container">
+            <div class="text-container">
+                <h1>FORMULARIO DE INSCRIPCION</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipiscing elit habitasse nam, 
+                dis torquent bibendum conubia lacinia pulvinar lectus orci luctus, 
+                dictum fusce habitant hac nulla dignissim arcu porttitor. Curae 
+                congue tristique sagittis aliquam ullamcorper posuere quam fames 
+                habitant, ornare odio cum quis faucibus taciti dictumst per torquent, 
+                varius ultrices malesuada ac gravida neque mauris pretium. </p>
+            </div>
+            <div class="form-container">
+                <input type="text" id="name" name="name" placeholder="Nombre">
+                <input type="text" id="surname" name="surname" placeholder="Apellidos">
+                <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Teléfono">
+                <input type="text" id="company" name="company" placeholder="Empresa">
+                <textarea id="comments" name="comments" placeholder="Comentarios" rows="4"></textarea>
+                <button class="boton" id="enviar">Enviar</button>
+            </div>
+        </div>
+        <div id="sending" class="sending" style="display: none;">
+            <div class="loader"></div> 
+            <span>Cargando</span>
+        </div>
+    </body>
+</html>
